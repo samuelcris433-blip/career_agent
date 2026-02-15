@@ -72,8 +72,8 @@ tools = [
 ]
 
 class Me:
-    def __innit__(self):
-        self.openai = OpenAI
+    def __init__(self):
+        self.openai = OpenAI()
         self.name = "Cristian Velasquez"
         reader = PdfReader("me/resume.pdf")
         self.linkedin = ""

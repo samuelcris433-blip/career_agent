@@ -67,7 +67,7 @@ record_unknown_question_json = {
 }
 
 tools = [
-    {"type":"function","function":record_user_details}
+    {"type":"function","function":record_user_details},
     {"type": "function","function":record_unknown_question}
 ]
 

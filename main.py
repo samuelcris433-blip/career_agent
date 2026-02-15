@@ -66,10 +66,8 @@ record_unknown_question_json = {
     }
 }
 
-tools = [
-    {"type":"function","function":record_user_details},
-    {"type": "function","function":record_unknown_question}
-]
+tools = [{"type": "function", "function": record_user_details_json},
+        {"type": "function", "function": record_unknown_question_json}]
 
 class Me:
     def __init__(self):
